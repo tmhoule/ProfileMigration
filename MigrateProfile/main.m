@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Partners Profile Migration Tool
+//  MigrateProfile
 //
-//  Created by Houle, Todd on 10/20/14.
+//  Created by admin on 7/14/14.
 //  Copyright (c) 2014 Partners. All rights reserved.
 //
 

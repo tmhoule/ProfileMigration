@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Partners Profile Migration Tool.xcodeproj">
+      location = "self:MigrateProfile.xcodeproj">
    </FileRef>
 </Workspace>

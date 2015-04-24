@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Partners Profile Migration Tool.xcscheme</key>
+		<key>MigrateProfile.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>BCC8F75D19F550CC0025036D</key>
+		<key>84EDE4571974192500402D91</key>
 		<dict>
 			<key>primary</key>
 			<true/>

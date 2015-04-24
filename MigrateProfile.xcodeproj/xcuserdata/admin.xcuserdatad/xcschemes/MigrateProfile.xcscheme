@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BCC8F75D19F550CC0025036D"
-               BuildableName = "Partners Profile Migration Tool.app"
-               BlueprintName = "Partners Profile Migration Tool"
-               ReferencedContainer = "container:Partners Profile Migration Tool.xcodeproj">
+               BlueprintIdentifier = "84EDE4571974192500402D91"
+               BuildableName = "MigrateProfile.app"
+               BlueprintName = "MigrateProfile"
+               ReferencedContainer = "container:MigrateProfile.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BCC8F75D19F550CC0025036D"
-            BuildableName = "Partners Profile Migration Tool.app"
-            BlueprintName = "Partners Profile Migration Tool"
-            ReferencedContainer = "container:Partners Profile Migration Tool.xcodeproj">
+            BlueprintIdentifier = "84EDE4571974192500402D91"
+            BuildableName = "MigrateProfile.app"
+            BlueprintName = "MigrateProfile"
+            ReferencedContainer = "container:MigrateProfile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +51,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BCC8F75D19F550CC0025036D"
-            BuildableName = "Partners Profile Migration Tool.app"
-            BlueprintName = "Partners Profile Migration Tool"
-            ReferencedContainer = "container:Partners Profile Migration Tool.xcodeproj">
+            BlueprintIdentifier = "84EDE4571974192500402D91"
+            BuildableName = "MigrateProfile.app"
+            BlueprintName = "MigrateProfile"
+            ReferencedContainer = "container:MigrateProfile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +69,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BCC8F75D19F550CC0025036D"
-            BuildableName = "Partners Profile Migration Tool.app"
-            BlueprintName = "Partners Profile Migration Tool"
-            ReferencedContainer = "container:Partners Profile Migration Tool.xcodeproj">
+            BlueprintIdentifier = "84EDE4571974192500402D91"
+            BuildableName = "MigrateProfile.app"
+            BlueprintName = "MigrateProfile"
+            ReferencedContainer = "container:MigrateProfile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

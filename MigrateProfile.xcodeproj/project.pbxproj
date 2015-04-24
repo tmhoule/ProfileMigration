@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EDE45C1974192500402D91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EDE45B1974192500402D91 /* Cocoa.framework */; };
+		84EDE45E1974192500402D91 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EDE45D1974192500402D91 /* AppleScriptObjC.framework */; };
+		84EDE4681974192500402D91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84EDE4661974192500402D91 /* InfoPlist.strings */; };
+		84EDE46A1974192500402D91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE4691974192500402D91 /* main.m */; };
+		84EDE46E1974192500402D91 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84EDE46C1974192500402D91 /* Credits.rtf */; };
+		84EDE4701974192500402D91 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 84EDE46F1974192500402D91 /* AppDelegate.applescript */; };
+		84EDE4731974192500402D91 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EDE4711974192500402D91 /* MainMenu.xib */; };
+		84EDE47A197442EC00402D91 /* Evermor-Design-Galaxian-Mac.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84EDE479197442EC00402D91 /* Evermor-Design-Galaxian-Mac.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84EDE4581974192500402D91 /* MigrateProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigrateProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EDE45B1974192500402D91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		84EDE45D1974192500402D91 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		84EDE4601974192500402D91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		84EDE4611974192500402D91 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84EDE4621974192500402D91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84EDE4651974192500402D91 /* MigrateProfile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MigrateProfile-Info.plist"; sourceTree = "<group>"; };
+		84EDE4671974192500402D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84EDE4691974192500402D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84EDE46B1974192500402D91 /* MigrateProfile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MigrateProfile-Prefix.pch"; sourceTree = "<group>"; };
+		84EDE46D1974192500402D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		84EDE46F1974192500402D91 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		84EDE4721974192500402D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84EDE479197442EC00402D91 /* Evermor-Design-Galaxian-Mac.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Evermor-Design-Galaxian-Mac.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EDE4551974192500402D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EDE45C1974192500402D91 /* Cocoa.framework in Frameworks */,
+				84EDE45E1974192500402D91 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EDE44F1974192500402D91 = {
+			isa = PBXGroup;
+			children = (
+				84EDE479197442EC00402D91 /* Evermor-Design-Galaxian-Mac.icns */,
+				84EDE4631974192500402D91 /* MigrateProfile */,
+				84EDE45A1974192500402D91 /* Frameworks */,
+				84EDE4591974192500402D91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EDE4591974192500402D91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EDE4581974192500402D91 /* MigrateProfile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EDE45A1974192500402D91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84EDE45B1974192500402D91 /* Cocoa.framework */,
+				84EDE45D1974192500402D91 /* AppleScriptObjC.framework */,
+				84EDE45F1974192500402D91 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84EDE45F1974192500402D91 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84EDE4601974192500402D91 /* AppKit.framework */,
+				84EDE4611974192500402D91 /* CoreData.framework */,
+				84EDE4621974192500402D91 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		84EDE4631974192500402D91 /* MigrateProfile */ = {
+			isa = PBXGroup;
+			children = (
+				84EDE46F1974192500402D91 /* AppDelegate.applescript */,
+				84EDE4711974192500402D91 /* MainMenu.xib */,
+				84EDE4641974192500402D91 /* Supporting Files */,
+			);
+			path = MigrateProfile;
+			sourceTree = "<group>";
+		};
+		84EDE4641974192500402D91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EDE4651974192500402D91 /* MigrateProfile-Info.plist */,
+				84EDE4661974192500402D91 /* InfoPlist.strings */,
+				84EDE4691974192500402D91 /* main.m */,
+				84EDE46B1974192500402D91 /* MigrateProfile-Prefix.pch */,
+				84EDE46C1974192500402D91 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EDE4571974192500402D91 /* MigrateProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EDE4761974192500402D91 /* Build configuration list for PBXNativeTarget "MigrateProfile" */;
+			buildPhases = (
+				84EDE4541974192500402D91 /* Sources */,
+				84EDE4551974192500402D91 /* Frameworks */,
+				84EDE4561974192500402D91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MigrateProfile;
+			productName = MigrateProfile;
+			productReference = 84EDE4581974192500402D91 /* MigrateProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EDE4501974192500402D91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Partners;
+			};
+			buildConfigurationList = 84EDE4531974192500402D91 /* Build configuration list for PBXProject "MigrateProfile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84EDE44F1974192500402D91;
+			productRefGroup = 84EDE4591974192500402D91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EDE4571974192500402D91 /* MigrateProfile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EDE4561974192500402D91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EDE4681974192500402D91 /* InfoPlist.strings in Resources */,
+				84EDE46E1974192500402D91 /* Credits.rtf in Resources */,
+				84EDE4731974192500402D91 /* MainMenu.xib in Resources */,
+				84EDE47A197442EC00402D91 /* Evermor-Design-Galaxian-Mac.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EDE4541974192500402D91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EDE46A1974192500402D91 /* main.m in Sources */,
+				84EDE4701974192500402D91 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84EDE4661974192500402D91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EDE4671974192500402D91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84EDE46C1974192500402D91 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EDE46D1974192500402D91 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		84EDE4711974192500402D91 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EDE4721974192500402D91 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EDE4741974192500402D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84EDE4751974192500402D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84EDE4771974192500402D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MigrateProfile/MigrateProfile-Prefix.pch";
+				INFOPLIST_FILE = "MigrateProfile/MigrateProfile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84EDE4781974192500402D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MigrateProfile/MigrateProfile-Prefix.pch";
+				INFOPLIST_FILE = "MigrateProfile/MigrateProfile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EDE4531974192500402D91 /* Build configuration list for PBXProject "MigrateProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EDE4741974192500402D91 /* Debug */,
+				84EDE4751974192500402D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EDE4761974192500402D91 /* Build configuration list for PBXNativeTarget "MigrateProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EDE4771974192500402D91 /* Debug */,
+				84EDE4781974192500402D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EDE4501974192500402D91 /* Project object */;
+}
