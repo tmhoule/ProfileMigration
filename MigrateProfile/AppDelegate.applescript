@@ -90,7 +90,7 @@ script AppDelegate
         
         if (netLoginID as string) is (localLoginID as string)
             if userMatch is "YES"
-                display dialog "You are logged in as " & netLoginID & " which is also your Partners ID.  Please login as a different administrative user before using this tool." buttons "Quit" default button 1
+                display dialog "You are logged in as " & netLoginID & " which is also your Network ID.  Please login as a different administrative user before using this tool." buttons "Quit" default button 1
                 tell me to quit
             end if
         end if
@@ -103,9 +103,9 @@ script AppDelegate
 
         --display end text
         if userMatch is "YES"
-            display dialog "The migration will run now.  After reboot, please login with your Partners user name and password." buttons "Reboot" default button 1 with icon 1
+            display dialog "The migration will run now.  After reboot, please login with your Network user name and password." buttons "Reboot" default button 1 with icon 1
         else
-            display dialog "The migration will run now.  After it has completed.  Please logout, then login with your Partners user name and password." buttons "Quit" default button 1 with icon 1
+            display dialog "The migration will run now.  After it has completed.  Please logout, then login with your Network user name and password." buttons "Quit" default button 1 with icon 1
         end if
 
         display dialog "LocalLoginID: " & localLoginID & ". NetLogin is: " & netLoginID --ForDebug
@@ -186,7 +186,7 @@ script AppDelegate
         log "creating mobile account..."
 
         try
-            do shell script "/System/Library/CoreServices/ManagedClient.app/Contents/Resources/createmobileaccount -n partners\\" & netLoginID with administrator privileges
+            do shell script "/System/Library/CoreServices/ManagedClient.app/Contents/Resources/createmobileaccount -n " & ADName & "\\" & netLoginID with administrator privileges
         on error
             log "Error: couldn't create mobileaccount for " & netLoginID
         end try
